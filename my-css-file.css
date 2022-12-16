@@ -1,0 +1,148 @@
+body {
+    direction: rtl;
+    background-color: aliceblue; 
+}
+
+/*navigation bar*/
+.navbar {
+    background-color: darkblue;
+    overflow: hidden
+}
+.navbar a {
+    float: right;
+    color: lightyellow;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 18px;
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+.navbar a.active {
+    background-color: blue;
+    color: white;
+}
+
+/*footer*/
+footer {
+    background-color: darkblue;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px
+}
+footer a {
+    color: lightyellow;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+/*contact-page*/
+form {
+    position: fixed;
+    width: 700px;
+    height: 60%;
+    right: 10%;
+    bottom: 30px;
+    top: 80px;
+    border-radius: 5px;
+    background-color: #aaaaff;
+    padding: 40px;
+}
+.inputs, .area {
+    width: 35%;
+    padding: 20px;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.area{
+    margin-top: 40px;
+    height: 50%;
+    width: 50%;
+}
+.submit-button{
+    color: white;
+    background-color: blue;
+    height: 10%;
+    width: 12%;
+    font-size: 20px;
+    margin-right: 60px;
+}
+.submit-button:hover {
+    background-color: white;
+    color: blue;
+}
+
+/*introduction-page*/
+.fdiv {
+    width: 40%;
+    padding: 20px;
+    margin-right: 5%;
+}
+.my-pic {
+    position: absolute;
+    top: 15%;
+    margin-right: 55%;
+    width: 32%;
+}
+
+/*skills-page*/
+.java-pic {
+    position: absolute;
+    top: 22%;
+    margin-right: 50%;
+    width: 15%;
+}
+.cpp-pic {
+    position: absolute;
+    top: 42%;
+    margin-right: 70%;
+    width: 20%;
+}
+.pingpong-pic {
+    position: absolute;
+    top: 12%;
+    margin-right: 68%;
+    width: 25%;
+}
+
+/*honor-page*/
+.prize-pic {
+    position: absolute;
+    top: 22%;
+    margin-right: 50%;
+    width: 17%;
+}
+.konkur-pic {
+    position: absolute;
+    top: 42%;
+    margin-right: 70%;
+    width: 20%;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 30px;
+    color: darkblue;
+}
+p {
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+}
+ul {
+    font-size: 25px;
+    line-height: 40px;
+}
